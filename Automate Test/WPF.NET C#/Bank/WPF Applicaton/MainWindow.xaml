@@ -1,0 +1,28 @@
+﻿<Window x:Class="BankApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Bank Account" Height="450" Width="800">
+    <Grid Margin="10">
+        <!-- ส่วนควบคุมการฝากและถอน -->
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
+            <TextBlock Text="Amount:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+            <TextBox Width="100" x:Name="AmountTextBox" />
+            <Button Content="Deposit" Width="80" Margin="10,0,0,0" Click="Deposit_Click"/>
+            <Button Content="Withdraw" Width="80" Margin="10,0,0,0" Click="Withdraw_Click"/>
+            <!-- แสดงยอดเงินคงเหลือ -->
+            <TextBlock Text="เงินที่่มีคือ :" VerticalAlignment="Center" Margin="10,0,0,0"/>
+            <TextBlock x:Name="BalanceTextBlock" Text="0.00" VerticalAlignment="Center" FontWeight="Bold" Margin="5,0,0,0"/>
+        </StackPanel>
+
+        <!-- แสดงรายการธุรกรรม -->
+        <ListView x:Name="TransactionListView" Margin="0,50,0,0" VerticalAlignment="Top">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Type" DisplayMemberBinding="{Binding TransactionType}" Width="100"/>
+                    <GridViewColumn Header="Amount" DisplayMemberBinding="{Binding Amount}" Width="100"/>
+                    <GridViewColumn Header="Date" DisplayMemberBinding="{Binding Date}" Width="200"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>

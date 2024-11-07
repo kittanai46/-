@@ -1,0 +1,19 @@
+C:\Users\bawkt\source\repos\WPF Applicaton\WPF Applicaton\bin\Debug\net8.0-windows\WPF Applicaton.exe
+C:\Users\bawkt\source\repos\WPF Applicaton\WPF Applicaton\bin\Debug\net8.0-windows\WPF Applicaton.deps.json
+C:\Users\bawkt\source\repos\WPF Applicaton\WPF Applicaton\bin\Debug\net8.0-windows\WPF Applicaton.runtimeconfig.json
+C:\Users\bawkt\source\repos\WPF Applicaton\WPF Applicaton\bin\Debug\net8.0-windows\WPF Applicaton.dll
+C:\Users\bawkt\source\repos\WPF Applicaton\WPF Applicaton\bin\Debug\net8.0-windows\WPF Applicaton.pdb
+C:\Users\bawkt\source\repos\WPF Applicaton\WPF Applicaton\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\bawkt\source\repos\WPF Applicaton\WPF Applicaton\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\bawkt\source\repos\WPF Applicaton\WPF Applicaton\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\bawkt\source\repos\WPF Applicaton\WPF Applicaton\obj\Debug\net8.0-windows\WPF Applicaton_MarkupCompile.cache
+C:\Users\bawkt\source\repos\WPF Applicaton\WPF Applicaton\obj\Debug\net8.0-windows\WPF Applicaton.g.resources
+C:\Users\bawkt\source\repos\WPF Applicaton\WPF Applicaton\obj\Debug\net8.0-windows\WPF Applicaton.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bawkt\source\repos\WPF Applicaton\WPF Applicaton\obj\Debug\net8.0-windows\WPF Applicaton.AssemblyInfoInputs.cache
+C:\Users\bawkt\source\repos\WPF Applicaton\WPF Applicaton\obj\Debug\net8.0-windows\WPF Applicaton.AssemblyInfo.cs
+C:\Users\bawkt\source\repos\WPF Applicaton\WPF Applicaton\obj\Debug\net8.0-windows\WPF Applicaton.csproj.CoreCompileInputs.cache
+C:\Users\bawkt\source\repos\WPF Applicaton\WPF Applicaton\obj\Debug\net8.0-windows\WPF Applicaton.dll
+C:\Users\bawkt\source\repos\WPF Applicaton\WPF Applicaton\obj\Debug\net8.0-windows\refint\WPF Applicaton.dll
+C:\Users\bawkt\source\repos\WPF Applicaton\WPF Applicaton\obj\Debug\net8.0-windows\WPF Applicaton.pdb
+C:\Users\bawkt\source\repos\WPF Applicaton\WPF Applicaton\obj\Debug\net8.0-windows\WPF Applicaton.genruntimeconfig.cache
+C:\Users\bawkt\source\repos\WPF Applicaton\WPF Applicaton\obj\Debug\net8.0-windows\ref\WPF Applicaton.dll

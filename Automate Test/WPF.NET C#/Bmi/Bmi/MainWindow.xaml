@@ -1,0 +1,18 @@
+﻿<Window x:Class="BmiCalculatorApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="BMI Calculator" Height="300" Width="300">
+    <Grid Margin="10">
+        <TextBlock Text="BMI Calculator" HorizontalAlignment="Center" FontSize="20" Margin="0,10,0,20"/>
+
+        <TextBlock Text="Height (m):" VerticalAlignment="Top" Margin="10,60,0,0" HorizontalAlignment="Left"/>
+        <TextBox Name="HeightInput" Width="100" Height="25" VerticalAlignment="Top" Margin="100,60,0,0" HorizontalAlignment="Left"/>
+
+        <TextBlock Text="Weight (kg):" VerticalAlignment="Top" Margin="10,100,0,0" HorizontalAlignment="Left"/>
+        <TextBox Name="WeightInput" Width="100" Height="25" VerticalAlignment="Top" Margin="100,100,0,0" HorizontalAlignment="Left"/>
+
+        <Button Content="Calculate BMI" Width="120" Height="30" VerticalAlignment="Top" Margin="85,150,0,0" HorizontalAlignment="Left" Click="CalculateBMI_Click"/>
+
+        <TextBlock Name="ResultText" FontSize="16" FontWeight="Bold" Foreground="Blue" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+    </Grid>
+</Window>
