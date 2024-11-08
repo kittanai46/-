@@ -2,14 +2,12 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using System;
-using System.Runtime.InteropServices;
-using System.Text.RegularExpressions;
 using System.Threading;
 
 namespace SeleniumWebBrowser
 {
     [TestFixture]
-    public class BO_ADMIN_USER_ADD_02
+    public class BO_ADMIN_USER_SEARCH_01
     {
         private IWebDriver driver;
 
@@ -79,65 +77,31 @@ namespace SeleniumWebBrowser
             }
 
             Thread.Sleep(1000);
-          
+
             var submenuItem = driver.FindElement(By.XPath("//*[@id='ui-id-1']"));
             if (submenuItem.Displayed)
             {
                 submenuItem.Click();
             }
 
-            
-            var add = driver.FindElement(By.XPath("//*[@id=\"doAddBtn\"]/span"));
-            if (add.Displayed)
+            //search
+            var input = driver.FindElement(By.XPath("//*[@id=\"username\"]"));
+            var search = driver.FindElement(By.XPath("//*[@id=\"onSearchBtn\"]/span"));
+            if (input.Displayed)
             {
-                add.Click();
-            }
-
-            // input username and password
-            var username = driver.FindElement(By.XPath("//*[@id=\"username\"]"));
-            var Password = driver.FindElement(By.XPath("//*[@id=\"password\"]"));
-
-            if (username.Displayed)
-            {
-                username.SendKeys("KittanaiSri47");
-            }
-
-            if (Password.Displayed)
-            {
-                Password.SendKeys("12121212121212Za@#");
+                input.SendKeys("KittanaiSri");
+                search.Click();
             }
 
 
-            var group = driver.FindElement(By.XPath("//*[@id=\"role\"]"));
-            var role = driver.FindElement(By.XPath("//*[@id=\"role\"]/option[2]"));
-            if (group.Displayed)
-            {
-                group.Click();
-                role.Click();
-            }
-            // input fistname lastname email
-            var fistname = driver.FindElement(By.XPath("//*[@id=\"firstname\"]"));
-            var lasename = driver.FindElement(By.XPath("//*[@id=\"lastname\"]"));
-            //var email = driver.FindElement(By.XPath("//*[@id=\"email\"]"));
-            if (fistname.Displayed)
-            {
-                fistname.SendKeys("Kittanai");
-                lasename.SendKeys("Srikham");
-                //email.SendKeys("KittanaiAutomateTest47@up.ac.th");
-            }
-            //click add
-            var addAdmin = driver.FindElement(By.XPath("//*[@id=\"addSubmitBtn\"]/span"));
-            IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
-            js.ExecuteScript("arguments[0].scrollIntoView(true);", addAdmin);
-            if (addAdmin.Displayed) 
-                { addAdmin.Click(); }
-            
+          
+
+           
         }
-
-        [TearDown]
-        public void Teardown()
-        {
-            //driver.Quit();
+            [TearDown]
+            public void Teardown()
+            {
+                //driver.Quit();
+            }
         }
     }
-}

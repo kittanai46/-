@@ -23,19 +23,20 @@ namespace SeleniumWebBrowser
         [Test]
         public void TestLoginAndNavigate()
         {
-            driver.Navigate().GoToUrl("https://16cc-2001-fb1-b3-6e71-4481-42fc-cae8-18de.ngrok-free.app/pn_next_automation_bo/page/verification/login.jsp");
+            driver.Navigate().GoToUrl("https://dev2.promptnow.com:21114/pn_next_automation_bo/page/verification/login.jsp");
 
-            var visitButton = driver.FindElement(By.XPath("//*[@id='root']/div/main/div/div/section[1]/div/footer/button"));
-            if (visitButton.Displayed)
-            {
-                visitButton.Click();
-            }
+
+            //var visitButton = driver.FindElement(By.XPath("//*[@id='root']/div/main/div/div/section[1]/div/footer/button"));
+            //if (visitButton.Displayed)
+            //{
+            //    visitButton.Click();
+            //}
 
             // Wait for 3 seconds 
-            Thread.Sleep(3000);
+            Thread.Sleep(2000);
 
             // Find username and password fields and login button
-            var inputUser = driver.FindElement(By.Id("username"));
+            var inputUser = driver.FindElement(By.XPath("//*[@id=\"username\"]"));
             var inputPassword = driver.FindElement(By.Id("password"));
             var loginButton = driver.FindElement(By.Id("login"));
 
@@ -84,19 +85,69 @@ namespace SeleniumWebBrowser
                 submenuItem.Click();
             }
 
-            //search
-            var input = driver.FindElement(By.XPath("//*[@id=\"username\"]"));
-            var search = driver.FindElement(By.XPath("//*[@id=\"onSearchBtn\"]/span"));
-            if (input.Displayed)
+            var user = driver.FindElement(By.XPath("//*[@id=\"username\"]"));
+            var s = driver.FindElement(By.XPath("//*[@id=\"onSearchBtn\"]/span"));
+            
+            if (user.Displayed)
             {
-                input.SendKeys("หิวข้าว");
-                search.Click();
+                user.SendKeys("KittanaiSri46");
+                s.Click();
+            }
+
+            Thread.Sleep(2000);
+
+            var edit = driver.FindElement(By.XPath("//*[@id=\"frmUser1\"]/div[5]/div/div/fieldset/div/table/tbody/tr/td[11]/a[1]"));
+            
+            if (edit.Displayed)
+            {
+                edit.Click();
             }
 
 
-          
+            var clear = driver.FindElement(By.XPath("//*[@id=\"clearInputBtn\"]"));
+            if (clear.Displayed)
+            {
+                clear.Click();
+            }
 
-           
+
+
+            var roleadmin = driver.FindElement(By.XPath("//*[@id=\"role\"]"));
+            var option2 = driver.FindElement(By.XPath("//*[@id=\"role\"]/option[2]"));
+            if (roleadmin.Displayed)
+            {
+                roleadmin.Click();
+                option2.Click();
+            }
+
+            var inname = driver.FindElement(By.XPath("//*[@id=\"firstname\"]"));
+            var inlastname = driver.FindElement(By.XPath("//*[@id=\"lastname\"]"));
+            var inemail = driver.FindElement(By.XPath("//*[@id=\"email\"]"));
+            if (inname.Displayed)
+            {
+                inname.SendKeys("Kittanai");
+                inlastname.SendKeys("Srikham");
+                inemail.SendKeys("Kittanai47@gmai.com");                
+            }
+
+            Thread.Sleep(2000);
+
+            var save = driver.FindElement(By.XPath("//*[@id=\"editiSubmitBtn\"]/span"));
+            if (save.Displayed)
+            {
+                save.Click();
+            }
+
+
+
+
+
+
+
+
+
+
+
         }
             [TearDown]
             public void Teardown()

@@ -2,14 +2,13 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using System;
-using System.Runtime.InteropServices;
-using System.Text.RegularExpressions;
 using System.Threading;
+using static System.Collections.Specialized.BitVector32;
 
 namespace SeleniumWebBrowser
 {
     [TestFixture]
-    public class BO_ADMIN_USER_ADD_02
+    public class BO_ADMIN_USER๘SESSION_TIME_OUT_01
     {
         private IWebDriver driver;
 
@@ -25,7 +24,8 @@ namespace SeleniumWebBrowser
         [Test]
         public void TestLoginAndNavigate()
         {
-            driver.Navigate().GoToUrl("https://16cc-2001-fb1-b3-6e71-4481-42fc-cae8-18de.ngrok-free.app/pn_next_automation_bo/page/verification/login.jsp");
+            driver.Navigate().GoToUrl("https://36cf-2001-fb1-b2-7d7f-b86f-88a0-c6db-4dc1.ngrok-free.app/pn_next_automation_bo/page/verification/login.jsp");
+
 
             var visitButton = driver.FindElement(By.XPath("//*[@id='root']/div/main/div/div/section[1]/div/footer/button"));
             if (visitButton.Displayed)
@@ -34,10 +34,10 @@ namespace SeleniumWebBrowser
             }
 
             // Wait for 3 seconds 
-            Thread.Sleep(3000);
+            Thread.Sleep(2000);
 
             // Find username and password fields and login button
-            var inputUser = driver.FindElement(By.Id("username"));
+            var inputUser = driver.FindElement(By.XPath("//*[@id=\"username\"]"));
             var inputPassword = driver.FindElement(By.Id("password"));
             var loginButton = driver.FindElement(By.Id("login"));
 
@@ -79,65 +79,53 @@ namespace SeleniumWebBrowser
             }
 
             Thread.Sleep(1000);
-          
+
             var submenuItem = driver.FindElement(By.XPath("//*[@id='ui-id-1']"));
             if (submenuItem.Displayed)
             {
                 submenuItem.Click();
             }
 
+            var user = driver.FindElement(By.XPath("//*[@id=\"username\"]"));
             
-            var add = driver.FindElement(By.XPath("//*[@id=\"doAddBtn\"]/span"));
-            if (add.Displayed)
-            {
-                add.Click();
-            }
-
-            // input username and password
-            var username = driver.FindElement(By.XPath("//*[@id=\"username\"]"));
-            var Password = driver.FindElement(By.XPath("//*[@id=\"password\"]"));
-
-            if (username.Displayed)
-            {
-                username.SendKeys("KittanaiSri47");
-            }
-
-            if (Password.Displayed)
-            {
-                Password.SendKeys("12121212121212Za@#");
-            }
-
-
-            var group = driver.FindElement(By.XPath("//*[@id=\"role\"]"));
-            var role = driver.FindElement(By.XPath("//*[@id=\"role\"]/option[2]"));
-            if (group.Displayed)
-            {
-                group.Click();
-                role.Click();
-            }
-            // input fistname lastname email
-            var fistname = driver.FindElement(By.XPath("//*[@id=\"firstname\"]"));
-            var lasename = driver.FindElement(By.XPath("//*[@id=\"lastname\"]"));
-            //var email = driver.FindElement(By.XPath("//*[@id=\"email\"]"));
-            if (fistname.Displayed)
-            {
-                fistname.SendKeys("Kittanai");
-                lasename.SendKeys("Srikham");
-                //email.SendKeys("KittanaiAutomateTest47@up.ac.th");
-            }
-            //click add
-            var addAdmin = driver.FindElement(By.XPath("//*[@id=\"addSubmitBtn\"]/span"));
-            IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
-            js.ExecuteScript("arguments[0].scrollIntoView(true);", addAdmin);
-            if (addAdmin.Displayed) 
-                { addAdmin.Click(); }
             
+            if (user.Displayed)
+            {
+                user.SendKeys("KittanaiSri46");
+            }
+
+            Thread.Sleep(900000);
+
+            var s = driver.FindElement(By.XPath("//*[@id=\"onSearchBtn\"]/span"));
+            if(s.Displayed)
+            {
+              s.Click();
+            }
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
-
-        [TearDown]
-        public void Teardown()
-        {
-            //driver.Quit();
+            [TearDown]
+            public void Teardown()
+            {
+                //driver.Quit();
+            }
         }
     }
-}

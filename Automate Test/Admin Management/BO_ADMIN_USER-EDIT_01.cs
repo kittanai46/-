@@ -7,7 +7,7 @@ using System.Threading;
 namespace SeleniumWebBrowser
 {
     [TestFixture]
-    public class BO_ADMIN_USER_SEARCH_02
+    public class BBO_ADMIN_USER_EDIT_02
     {
         private IWebDriver driver;
 
@@ -23,14 +23,14 @@ namespace SeleniumWebBrowser
         [Test]
         public void TestLoginAndNavigate()
         {
-            driver.Navigate().GoToUrl("https://dev2.promptnow.com:21114/pn_next_automation_bo/page/verification/login.jsp");
+            driver.Navigate().GoToUrl("https://36cf-2001-fb1-b2-7d7f-b86f-88a0-c6db-4dc1.ngrok-free.app/pn_next_automation_bo/page/verification/login.jsp");
 
 
-            //var visitButton = driver.FindElement(By.XPath("//*[@id='root']/div/main/div/div/section[1]/div/footer/button"));
-            //if (visitButton.Displayed)
-            //{
-            //    visitButton.Click();
-            //}
+            var visitButton = driver.FindElement(By.XPath("//*[@id='root']/div/main/div/div/section[1]/div/footer/button"));
+            if (visitButton.Displayed)
+            {
+                visitButton.Click();
+            }
 
             // Wait for 3 seconds 
             Thread.Sleep(2000);
@@ -96,7 +96,7 @@ namespace SeleniumWebBrowser
 
             Thread.Sleep(2000);
 
-            var edit = driver.FindElement(By.XPath("//*[@id=\"frmUser1\"]/div[5]/div/div/fieldset/div/table/tbody/tr/td[11]/a[1]"));
+            var edit = driver.FindElement(By.XPath("//*[@id=\"frmUser1\"]/div[5]/div/div/fieldset/div/table/tbody/tr/td[14]/a[1]/span"));
             
             if (edit.Displayed)
             {
@@ -122,12 +122,12 @@ namespace SeleniumWebBrowser
 
             var inname = driver.FindElement(By.XPath("//*[@id=\"firstname\"]"));
             var inlastname = driver.FindElement(By.XPath("//*[@id=\"lastname\"]"));
-            var inemail = driver.FindElement(By.XPath("//*[@id=\"email\"]"));
+            //var inemail = driver.FindElement(By.XPath("//*[@id=\"email\"]"));
             if (inname.Displayed)
             {
                 inname.SendKeys("Kittanai");
                 inlastname.SendKeys("Srikham");
-                inemail.SendKeys("Kittanai47@gmai.com");                
+                //inemail.SendKeys("Kittanai47@gmai.com");                
             }
 
             Thread.Sleep(2000);
