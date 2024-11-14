@@ -5,6 +5,7 @@ using OpenQA.Selenium.DevTools.V128.WebAuthn;
 using OpenQA.Selenium.Support.UI;
 using SeleniumExtras.WaitHelpers;
 using System;
+using System.Runtime.InteropServices;
 using System.Threading;
 using System.Timers;
 using static Microsoft.ApplicationInsights.MetricDimensionNames.TelemetryContext;
@@ -13,7 +14,7 @@ using static System.Collections.Specialized.BitVector32;
 namespace SeleniumWebBrowser
 {
     [TestFixture]
-    public class BO_DEVICE_MODEL_SEARCH_01
+    public class BO_DEVICE_MODEL_EDIT_01
     { 
         private IWebDriver driver;
 
@@ -50,7 +51,7 @@ namespace SeleniumWebBrowser
             inputUser.Clear();
             inputPassword.Clear();
 
-            inputUser.SendKeys("admin");
+            inputUser.SendKeys("nopmontolPN");
             inputPassword.SendKeys("vtm@Promptnow2024");
 
             loginButton.Click();
@@ -63,10 +64,26 @@ namespace SeleniumWebBrowser
             Device.Click();
 
             Thread.Sleep(3000);
+            var input_search = driver.FindElement(By.XPath("//*[@id=\"devicemodelcode\"]"));
+            input_search.SendKeys("123456");
+
+            Thread.Sleep(3000);
             var search = driver.FindElement(By.XPath("//*[@id=\"SearchBtn\"]"));
             search.Click();
 
+            Thread.Sleep(3000);
+            var edit = driver.FindElement(By.XPath("//*[@id=\"frmUser1\"]/div[5]/div/div/fieldset/div/table/tbody/tr/td[6]/a[1]"));
+            edit.Click();
 
+            Thread.Sleep(3000);
+            var description = driver.FindElement(By.XPath("//*[@id=\"description\"]"));
+            description.Clear();
+            description.SendKeys("Hello my name is kittanai");
+
+            Thread.Sleep(3000);
+            var save = driver.FindElement(By.XPath("//*[@id=\"ValidateBtn\"]"));
+            ((IJavaScriptExecutor)driver).ExecuteScript("arguments[0].scrollIntoView(true);", save);
+            save.Click();
         }
 
         [TearDown]

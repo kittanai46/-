@@ -5,6 +5,8 @@ using OpenQA.Selenium.DevTools.V128.WebAuthn;
 using OpenQA.Selenium.Support.UI;
 using SeleniumExtras.WaitHelpers;
 using System;
+using System.Reflection.PortableExecutable;
+using System.Runtime.InteropServices;
 using System.Threading;
 using System.Timers;
 using static Microsoft.ApplicationInsights.MetricDimensionNames.TelemetryContext;
@@ -13,8 +15,8 @@ using static System.Collections.Specialized.BitVector32;
 namespace SeleniumWebBrowser
 {
     [TestFixture]
-    public class BO_DEVICE_MODEL_SEARCH_01
-    { 
+    public class BO_BO_ACTION_PROFILE_EDIT_01
+    {
         private IWebDriver driver;
 
         [SetUp]
@@ -29,7 +31,7 @@ namespace SeleniumWebBrowser
         [Test]
         public void TestLoginWithIncorrectCredentials()
         {
-            driver.Navigate().GoToUrl("https://e1be-124-120-248-30.ngrok-free.app/pn_next_automation_bo/page/verification/login.jsp");
+            driver.Navigate().GoToUrl("https://cfb9-2001-fb1-b2-96f1-3190-5a6d-1b46-7245.ngrok-free.app/pn_next_automation_bo/page/verification/login.jsp");
 
             // Click visit button if visible
             var visitButton = driver.FindElement(By.XPath("//*[@id='root']/div/main/div/div/section[1]/div/footer/button"));
@@ -50,21 +52,36 @@ namespace SeleniumWebBrowser
             inputUser.Clear();
             inputPassword.Clear();
 
-            inputUser.SendKeys("admin");
+            inputUser.SendKeys("nopmontolPN");
             inputPassword.SendKeys("vtm@Promptnow2024");
 
             loginButton.Click();
 
             Thread.Sleep(3000);
-            var Device_Management = driver.FindElement(By.XPath("//*[@id=\"myslidemenu\"]/ul/li[6]/a"));
-            Device_Management.Click();
+            var Action_Profile = driver.FindElement(By.XPath("//*[@id=\"myslidemenu\"]/ul/li[8]/a"));
+            Action_Profile.Click();
 
-            var Device = driver.FindElement(By.XPath("//*[@id=\"ui-id-3\"]"));
-            Device.Click();
+            Thread.Sleep(2000);
+            var name = driver.FindElement(By.XPath("//*[@id=\"firstname\"]"));
+            name.SendKeys("kit");
 
-            Thread.Sleep(3000);
             var search = driver.FindElement(By.XPath("//*[@id=\"SearchBtn\"]"));
             search.Click();
+
+            Thread.Sleep(3000);
+            var edit = driver.FindElement(By.XPath("//*[@id=\"frmUser1\"]/div[5]/div/div/fieldset/div/table/tbody/tr/td[6]/a[1]/span"));
+            edit.Click();
+
+            Thread.Sleep(4000);
+
+            var rename = driver.FindElement(By.XPath("//*[@id=\"firstname\"]"));
+            rename.Clear();
+            rename.SendKeys("Muhaha");
+
+            Thread.Sleep(3000);
+            var save = driver.FindElement(By.XPath("//*[@id=\"ValidateBtn\"]/span"));
+            save.Click();
+
 
 
         }

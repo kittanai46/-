@@ -13,7 +13,7 @@ using static System.Collections.Specialized.BitVector32;
 namespace SeleniumWebBrowser
 {
     [TestFixture]
-    public class BO_DEVICE_MODEL_SEARCH_01
+    public class BO_DEVICE_MODEL_SEARCH_02
     { 
         private IWebDriver driver;
 
@@ -61,6 +61,11 @@ namespace SeleniumWebBrowser
 
             var Device = driver.FindElement(By.XPath("//*[@id=\"ui-id-3\"]"));
             Device.Click();
+
+            Thread.Sleep(3000);
+            var input_search = driver.FindElement(By.XPath("//*[@id=\"devicemodelcode\"]"));
+            input_search.Clear();
+            input_search.SendKeys("admin");
 
             Thread.Sleep(3000);
             var search = driver.FindElement(By.XPath("//*[@id=\"SearchBtn\"]"));

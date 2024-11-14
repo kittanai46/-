@@ -6,15 +6,13 @@ using OpenQA.Selenium.Support.UI;
 using SeleniumExtras.WaitHelpers;
 using System;
 using System.Threading;
-using System.Timers;
-using static Microsoft.ApplicationInsights.MetricDimensionNames.TelemetryContext;
 using static System.Collections.Specialized.BitVector32;
 
 namespace SeleniumWebBrowser
 {
     [TestFixture]
-    public class BO_DEVICE_MODEL_SEARCH_01
-    { 
+    public class BO_ADMIN_LOG_SESSION_TIME_OUT_01
+    {
         private IWebDriver driver;
 
         [SetUp]
@@ -29,7 +27,7 @@ namespace SeleniumWebBrowser
         [Test]
         public void TestLoginWithIncorrectCredentials()
         {
-            driver.Navigate().GoToUrl("https://e1be-124-120-248-30.ngrok-free.app/pn_next_automation_bo/page/verification/login.jsp");
+            driver.Navigate().GoToUrl("https://36cf-2001-fb1-b2-7d7f-b86f-88a0-c6db-4dc1.ngrok-free.app/pn_next_automation_bo/page/verification/login.jsp");
 
             // Click visit button if visible
             var visitButton = driver.FindElement(By.XPath("//*[@id='root']/div/main/div/div/section[1]/div/footer/button"));
@@ -56,15 +54,20 @@ namespace SeleniumWebBrowser
             loginButton.Click();
 
             Thread.Sleep(3000);
-            var Device_Management = driver.FindElement(By.XPath("//*[@id=\"myslidemenu\"]/ul/li[6]/a"));
-            Device_Management.Click();
 
-            var Device = driver.FindElement(By.XPath("//*[@id=\"ui-id-3\"]"));
-            Device.Click();
+            var adminManager = driver.FindElement(By.XPath("//*[@id=\"myslidemenu\"]/ul/li[1]/a"));
+            adminManager.Click();
 
-            Thread.Sleep(3000);
-            var search = driver.FindElement(By.XPath("//*[@id=\"SearchBtn\"]"));
-            search.Click();
+
+            var admin_Log = driver.FindElement(By.XPath("//*[@id=\"ui-id-4\"]"));
+            admin_Log.Click();
+
+            Thread.Sleep(900000);
+
+
+            var S = driver.FindElement(By.XPath("//*[@id=\"onSearchBtn\"]"));
+            S.Click();
+
 
 
         }

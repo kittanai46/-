@@ -5,6 +5,8 @@ using OpenQA.Selenium.DevTools.V128.WebAuthn;
 using OpenQA.Selenium.Support.UI;
 using SeleniumExtras.WaitHelpers;
 using System;
+using System.Reflection.PortableExecutable;
+using System.Runtime.InteropServices;
 using System.Threading;
 using System.Timers;
 using static Microsoft.ApplicationInsights.MetricDimensionNames.TelemetryContext;
@@ -13,7 +15,7 @@ using static System.Collections.Specialized.BitVector32;
 namespace SeleniumWebBrowser
 {
     [TestFixture]
-    public class BO_DEVICE_MODEL_SEARCH_01
+    public class BO_MACHINE_MODEL_SEARCH_02
     { 
         private IWebDriver driver;
 
@@ -29,7 +31,7 @@ namespace SeleniumWebBrowser
         [Test]
         public void TestLoginWithIncorrectCredentials()
         {
-            driver.Navigate().GoToUrl("https://e1be-124-120-248-30.ngrok-free.app/pn_next_automation_bo/page/verification/login.jsp");
+            driver.Navigate().GoToUrl("https://c22c-124-120-248-30.ngrok-free.app/pn_next_automation_bo/page/verification/login.jsp");
 
             // Click visit button if visible
             var visitButton = driver.FindElement(By.XPath("//*[@id='root']/div/main/div/div/section[1]/div/footer/button"));
@@ -50,21 +52,28 @@ namespace SeleniumWebBrowser
             inputUser.Clear();
             inputPassword.Clear();
 
-            inputUser.SendKeys("admin");
+            inputUser.SendKeys("nopmontolPN");
             inputPassword.SendKeys("vtm@Promptnow2024");
 
             loginButton.Click();
 
             Thread.Sleep(3000);
-            var Device_Management = driver.FindElement(By.XPath("//*[@id=\"myslidemenu\"]/ul/li[6]/a"));
-            Device_Management.Click();
+            var Machine_Management = driver.FindElement(By.XPath("//*[@id=\"myslidemenu\"]/ul/li[7]/a"));
+            Machine_Management.Click();
 
-            var Device = driver.FindElement(By.XPath("//*[@id=\"ui-id-3\"]"));
-            Device.Click();
+            var Machine_Model = driver.FindElement(By.XPath("//*[@id=\"ui-id-1\"]"));
+            Machine_Model.Click();
 
-            Thread.Sleep(3000);
+            Thread.Sleep(2000);
+            var input = driver.FindElement(By.XPath("//*[@id=\"machinemodelcode\"]"));
+            input.Clear();
+            input.SendKeys("Admin");
+
+            Thread.Sleep(2000);
             var search = driver.FindElement(By.XPath("//*[@id=\"SearchBtn\"]"));
             search.Click();
+
+            
 
 
         }

@@ -5,6 +5,7 @@ using OpenQA.Selenium.DevTools.V128.WebAuthn;
 using OpenQA.Selenium.Support.UI;
 using SeleniumExtras.WaitHelpers;
 using System;
+using System.Runtime.InteropServices;
 using System.Threading;
 using System.Timers;
 using static Microsoft.ApplicationInsights.MetricDimensionNames.TelemetryContext;
@@ -13,7 +14,7 @@ using static System.Collections.Specialized.BitVector32;
 namespace SeleniumWebBrowser
 {
     [TestFixture]
-    public class BO_DEVICE_MODEL_SEARCH_01
+    public class BO_DEVICE_MODEL_ADD_01
     { 
         private IWebDriver driver;
 
@@ -50,7 +51,7 @@ namespace SeleniumWebBrowser
             inputUser.Clear();
             inputPassword.Clear();
 
-            inputUser.SendKeys("admin");
+            inputUser.SendKeys("nopmontolPN");
             inputPassword.SendKeys("vtm@Promptnow2024");
 
             loginButton.Click();
@@ -63,8 +64,29 @@ namespace SeleniumWebBrowser
             Device.Click();
 
             Thread.Sleep(3000);
-            var search = driver.FindElement(By.XPath("//*[@id=\"SearchBtn\"]"));
-            search.Click();
+            var add = driver.FindElement(By.XPath("//*[@id=\"doAddBtn\"]"));
+            add.Click();
+
+            Thread.Sleep(3000);
+            var device_model = driver.FindElement(By.XPath("//*[@id=\"devicemodelcode\"]"));
+            device_model.SendKeys("123456");
+
+            Thread.Sleep(3000);
+            var name = driver.FindElement(By.XPath("//*[@id=\"name\"]"));
+            name.SendKeys("Test1234");
+
+            Thread.Sleep(3000);
+            var descriftion = driver.FindElement(By.XPath("//*[@id=\"description\"]"));
+            descriftion.SendKeys("Hello Test Hello world");
+
+            Thread.Sleep(3000);
+            var remark = driver.FindElement(By.XPath("//*[@id=\"remark\"]"));
+            remark.SendKeys("test test");
+
+            Thread.Sleep(3000);
+            var save = driver.FindElement(By.XPath("//*[@id=\"ValidateBtn\"]"));
+            ((IJavaScriptExecutor)driver).ExecuteScript("arguments[0].scrollIntoView(true);", save);
+            save.Click();
 
 
         }

@@ -5,6 +5,8 @@ using OpenQA.Selenium.DevTools.V128.WebAuthn;
 using OpenQA.Selenium.Support.UI;
 using SeleniumExtras.WaitHelpers;
 using System;
+using System.Reflection.PortableExecutable;
+using System.Runtime.InteropServices;
 using System.Threading;
 using System.Timers;
 using static Microsoft.ApplicationInsights.MetricDimensionNames.TelemetryContext;
@@ -13,7 +15,7 @@ using static System.Collections.Specialized.BitVector32;
 namespace SeleniumWebBrowser
 {
     [TestFixture]
-    public class BO_DEVICE_MODEL_SEARCH_01
+    public class BO_MACHINE_ADD_02
     { 
         private IWebDriver driver;
 
@@ -29,7 +31,7 @@ namespace SeleniumWebBrowser
         [Test]
         public void TestLoginWithIncorrectCredentials()
         {
-            driver.Navigate().GoToUrl("https://e1be-124-120-248-30.ngrok-free.app/pn_next_automation_bo/page/verification/login.jsp");
+            driver.Navigate().GoToUrl("https://cfb9-2001-fb1-b2-96f1-3190-5a6d-1b46-7245.ngrok-free.app/pn_next_automation_bo/page/verification/login.jsp");
 
             // Click visit button if visible
             var visitButton = driver.FindElement(By.XPath("//*[@id='root']/div/main/div/div/section[1]/div/footer/button"));
@@ -50,21 +52,37 @@ namespace SeleniumWebBrowser
             inputUser.Clear();
             inputPassword.Clear();
 
-            inputUser.SendKeys("admin");
+            inputUser.SendKeys("nopmontolPN");
             inputPassword.SendKeys("vtm@Promptnow2024");
 
             loginButton.Click();
 
             Thread.Sleep(3000);
-            var Device_Management = driver.FindElement(By.XPath("//*[@id=\"myslidemenu\"]/ul/li[6]/a"));
-            Device_Management.Click();
+            var Machine_Management = driver.FindElement(By.XPath("//*[@id=\"myslidemenu\"]/ul/li[7]/a"));
+            Machine_Management.Click();
 
-            var Device = driver.FindElement(By.XPath("//*[@id=\"ui-id-3\"]"));
-            Device.Click();
+            var Machine = driver.FindElement(By.XPath("//*[@id=\"ui-id-2\"]"));
+            Machine.Click();
+
+            Thread.Sleep(2000);
+            var add = driver.FindElement(By.XPath("//*[@id=\"doAddBtn\"]"));
+            add.Click();
 
             Thread.Sleep(3000);
-            var search = driver.FindElement(By.XPath("//*[@id=\"SearchBtn\"]"));
-            search.Click();
+            var description = driver.FindElement(By.XPath("//*[@id=\"description\"]"));
+            description.SendKeys("Hello");
+
+            Thread.Sleep(1000);
+            var remark = driver.FindElement(By.XPath("//*[@id=\"remark\"]"));
+            remark.SendKeys("12123");
+
+            // เลื่อนหน้าเว็บลงมา 100 พิกเซล
+            ((IJavaScriptExecutor)driver).ExecuteScript("window.scrollBy(0, 100);");
+
+            // รอเล็กน้อยหากต้องการให้การเลื่อนหน้าจอเสร็จสมบูรณ์ (optional)
+            Thread.Sleep(500); // รอ 0.5 วินาที (ปรับตามต้องการ)
+            var save = driver.FindElement(By.XPath("//*[@id=\"ValidateBtn\"]"));
+            save.Click();
 
 
         }

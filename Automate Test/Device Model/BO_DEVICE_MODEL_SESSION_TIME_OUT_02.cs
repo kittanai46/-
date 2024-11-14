@@ -5,6 +5,7 @@ using OpenQA.Selenium.DevTools.V128.WebAuthn;
 using OpenQA.Selenium.Support.UI;
 using SeleniumExtras.WaitHelpers;
 using System;
+using System.Runtime.InteropServices;
 using System.Threading;
 using System.Timers;
 using static Microsoft.ApplicationInsights.MetricDimensionNames.TelemetryContext;
@@ -13,7 +14,7 @@ using static System.Collections.Specialized.BitVector32;
 namespace SeleniumWebBrowser
 {
     [TestFixture]
-    public class BO_DEVICE_MODEL_SEARCH_01
+    public class BO_DEVICE_MODEL_SESSION_TIME_OUT_02
     { 
         private IWebDriver driver;
 
@@ -50,7 +51,7 @@ namespace SeleniumWebBrowser
             inputUser.Clear();
             inputPassword.Clear();
 
-            inputUser.SendKeys("admin");
+            inputUser.SendKeys("nopmontolPN");
             inputPassword.SendKeys("vtm@Promptnow2024");
 
             loginButton.Click();
@@ -62,10 +63,8 @@ namespace SeleniumWebBrowser
             var Device = driver.FindElement(By.XPath("//*[@id=\"ui-id-3\"]"));
             Device.Click();
 
-            Thread.Sleep(3000);
-            var search = driver.FindElement(By.XPath("//*[@id=\"SearchBtn\"]"));
-            search.Click();
-
+            Thread.Sleep(900000);
+            driver.FindElement(By.TagName("body")).SendKeys(Keys.F5);
 
         }
 

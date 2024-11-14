@@ -5,6 +5,7 @@ using OpenQA.Selenium.DevTools.V128.WebAuthn;
 using OpenQA.Selenium.Support.UI;
 using SeleniumExtras.WaitHelpers;
 using System;
+using System.Runtime.InteropServices;
 using System.Threading;
 using System.Timers;
 using static Microsoft.ApplicationInsights.MetricDimensionNames.TelemetryContext;
@@ -13,7 +14,7 @@ using static System.Collections.Specialized.BitVector32;
 namespace SeleniumWebBrowser
 {
     [TestFixture]
-    public class BO_DEVICE_MODEL_SEARCH_01
+    public class BO_DEVICE_INCIDENT_VIEW_02
     { 
         private IWebDriver driver;
 
@@ -50,7 +51,7 @@ namespace SeleniumWebBrowser
             inputUser.Clear();
             inputPassword.Clear();
 
-            inputUser.SendKeys("admin");
+            inputUser.SendKeys("nopmontolPN");
             inputPassword.SendKeys("vtm@Promptnow2024");
 
             loginButton.Click();
@@ -59,12 +60,15 @@ namespace SeleniumWebBrowser
             var Device_Management = driver.FindElement(By.XPath("//*[@id=\"myslidemenu\"]/ul/li[6]/a"));
             Device_Management.Click();
 
-            var Device = driver.FindElement(By.XPath("//*[@id=\"ui-id-3\"]"));
+            var Device = driver.FindElement(By.XPath("//*[@id=\"ui-id-4\"]"));
             Device.Click();
 
-            Thread.Sleep(3000);
-            var search = driver.FindElement(By.XPath("//*[@id=\"SearchBtn\"]"));
-            search.Click();
+            var datefrom = driver.FindElement(By.XPath("//*[@id=\"datefrompicker\"]"));
+            datefrom.Clear();
+            datefrom.SendKeys("2000-07-14 11:00:00");
+
+            Thread.Sleep(900000);
+            driver.FindElement(By.TagName("body")).SendKeys(Keys.F5);
 
 
         }
