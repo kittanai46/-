@@ -1,0 +1,66 @@
+{
+  "setSubjectID": "BO",
+  "setSubjectName": "Back Office System",
+  "setSubjectType": "WEBSITE",
+  "setName": "AdminUserTests",
+  "cases": [
+    {
+      "scenarioGroup": "Admin Management",
+      "scenarioName": "02",
+      "scenarioDescription": "Add Admin User ไม่สำเร็จ เนื่องจากกรอกข้อมูล * ไม่ครบ",
+      "scenarioPriority": "HIGH",
+      "prerequisites": "ทำการ Login สำเร็จ และ User ที่ใช้ต้องมีสิทธิ์ Permission : Admin User - Add",
+      "steps": [
+        {
+          "stepType": "NAVIGATE",
+          "componentFinderBy": "URL",
+          "componentFinderID": "",
+          "componentValue": "https://16cc-2001-fb1-b3-6e71-4481-42fc-cae8-18de.ngrok-free.app/pn_next_automation_bo/page/verification/login.jsp",
+          "delay": 3000
+        },
+        {
+          "stepType": "CLICK",
+          "componentFinderBy": "xpath",
+          "componentFinderID": "//*[@id='myslidemenu']/ul/li[1]/a",
+          "componentValue": "",
+          "delay": 1000
+        },
+        {
+          "stepType": "CLICK",
+          "componentFinderBy": "xpath",
+          "componentFinderID": "//*[@id='ui-id-1']",
+          "componentValue": "",
+          "delay": 1000
+        },
+        {
+          "stepType": "CLICK",
+          "componentFinderBy": "xpath",
+          "componentFinderID": "//*[@id=\"doAddBtn\"]/span",
+          "componentValue": "",
+          "delay": 1000
+        },
+        {
+          "stepType": "INPUT",
+          "componentFinderBy": "xpath",
+          "componentFinderID": "//*[@id=\"username\"]",
+          "componentValue": "",
+          "delay": 1000
+        },
+        {
+          "stepType": "CLICK",
+          "componentFinderBy": "xpath",
+          "componentFinderID": "//*[@id=\"addSubmitBtn\"]/span",
+          "componentValue": "",
+          "delay": 1000
+        },
+        {
+          "stepType": "CHECK",
+          "componentFinderBy": "xpath",
+          "componentFinderID": "//*[@id='error']/div/div",
+          "componentValue": "Expected error message for incomplete data",
+          "delay": 1000
+        }
+      ]
+    }
+  ]
+}

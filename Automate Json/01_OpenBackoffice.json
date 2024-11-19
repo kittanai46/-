@@ -1,0 +1,225 @@
+{
+  "setSubjectID": "BO",
+  "setSubjectName": "Back Office System",
+  "setSubjectType": "WEBSITE",
+  "setName": "LoginTests",
+  "cases": [
+    {
+      "scenarioGroup": "Login",
+      "scenarioName": "00",
+      "scenarioDescription": "กดปุ่มvisitเพื่อเข้าสู่หน้าล็อกอินของเว็บ",
+      "scenarioPriority": "HIGH",
+      "prerequisites": "หน้าเว็บต้องพร้อมใช้งาน และเข้าสู่หน้าล็อกอิน",
+      "steps": [
+        {
+          "stepType": "NAVIGATE",
+          "componentFinderBy": "URL",
+          "componentFinderID": "",
+          "componentValue": "https://16cc-2001-fb1-b3-6e71-4481-42fc-cae8-18de.ngrok-free.app/pn_next_automation_bo/page/verification/login.jsp",
+          "delay": 3000
+        },
+        {
+          "stepType": "CLICK",
+          "componentFinderBy": "xpath",
+          "componentFinderID": "//*[@id='root']/div/main/div/div/section[1]/div/footer/button",
+          "componentValue": "",
+          "delay": 3000
+        }
+      ]
+    },
+    {
+      "scenarioGroup": "Login",
+      "scenarioName": "01",
+      "scenarioDescription": "Login ล้มเหลวเนื่องจากกรอก password ผิด 5 ครั้ง",
+      "scenarioPriority": "HIGH",
+      "prerequisites": "หน้าเว็บต้องพร้อมใช้งาน และบัญชีต้องมีการเปิดใช้งาน",
+      "steps": [
+        {
+          "stepType": "LOOP",
+          "loopCount": 5,
+          "steps": [
+            {
+              "stepType": "INPUT",
+              "componentFinderBy": "xpath",
+              "componentFinderID": "/html/body/form/div[4]/div/div[2]/table/tbody/tr[2]/td[2]/input",
+              "componentValue": "incorrectUsername#{loop_index}",
+              "delay": 1000
+            },
+            {
+              "stepType": "INPUT",
+              "componentFinderBy": "id",
+              "componentFinderID": "password",
+              "componentValue": "incorrectPassword",
+              "delay": 1000
+            },
+            {
+              "stepType": "CLICK",
+              "componentFinderBy": "id",
+              "componentFinderID": "login",
+              "componentValue": "",
+              "delay": 1000
+            },
+            {
+              "stepType": "CHECK",
+              "componentFinderBy": "xpath",
+              "componentFinderID": "//*[@id='error']/div/div",
+              "componentValue": "Expected error message",
+              "delay": 1000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scenarioGroup": "Login",
+      "scenarioName": "02",
+      "scenarioDescription": "Login ล้มเหลวเนื่องจากกรอก password ผิดเกิน 5 ครั้ง จากนั้นครั้งที่ 6 ทดสอบการล็อกอินที่ล้มเหลว",
+      "scenarioPriority": "HIGH",
+      "prerequisites": "หน้าเว็บต้องพร้อมใช้งาน และระบบต้องสามารถตรวจจับการล็อกอินผิดพลาดได้",
+      "steps": [
+        {
+          "stepType": "INPUT",
+          "componentFinderBy": "id",
+          "componentFinderID": "username",
+          "componentValue": "incorrect",
+          "delay": 1000
+        },
+        {
+          "stepType": "INPUT",
+          "componentFinderBy": "id",
+          "componentFinderID": "password",
+          "componentValue": "incorrect",
+          "delay": 1000
+        },
+        {
+          "stepType": "CLICK",
+          "componentFinderBy": "id",
+          "componentFinderID": "login",
+          "componentValue": "",
+          "delay": 1000
+        },
+        {
+          "stepType": "CHECK",
+          "componentFinderBy": "xpath",
+          "componentFinderID": "//*[@id='error']/div/div",
+          "componentValue": "User/Password is incorrect.",
+          "delay": 1000
+        },
+        {
+          "stepType": "CHECK",
+          "componentFinderBy": "className",
+          "componentFinderID": "title",
+          "componentValue": "Welcome to RAIJIN-VTM Back Office",
+          "delay": 1000
+        }
+      ]
+    },
+    {
+      "scenarioGroup": "Login",
+      "scenarioName": "03",
+      "scenarioDescription": "Login ไม่สำเร็จเนื่องจาก Username และ Password ไม่ถูกต้อง และดำเนินการทดสอบไปจนถึงการเพิ่มข้อมูลผู้ใช้ใหม่ในระบบ",
+      "scenarioPriority": "HIGH",
+      "prerequisites": "หน้าเว็บต้องพร้อมใช้งาน และระบบต้องอนุญาตการเข้าสู่เมนูหลังจากล็อกอิน",
+      "steps": [
+        {
+          "stepType": "INPUT",
+          "componentFinderBy": "id",
+          "componentFinderID": "username",
+          "componentValue": "nopmontolPN",
+          "delay": 1000
+        },
+        {
+          "stepType": "INPUT",
+          "componentFinderBy": "id",
+          "componentFinderID": "password",
+          "componentValue": "vtm@Promptnow2024",
+          "delay": 1000
+        },
+        {
+          "stepType": "CLICK",
+          "componentFinderBy": "id",
+          "componentFinderID": "login",
+          "componentValue": "",
+          "delay": 1000
+        },
+        {
+          "stepType": "CHECK",
+          "componentFinderBy": "className",
+          "componentFinderID": "title",
+          "componentValue": "Welcome to RAIJIN-VTM Back Office",
+          "delay": 1000
+        },
+        {
+          "stepType": "CLICK",
+          "componentFinderBy": "xpath",
+          "componentFinderID": "//*[@id='myslidemenu']/ul/li[1]/a",
+          "componentValue": "",
+          "delay": 1000
+        },
+        {
+          "stepType": "CLICK",
+          "componentFinderBy": "xpath",
+          "componentFinderID": "//*[@id='ui-id-1']",
+          "componentValue": "",
+          "delay": 1000
+        },
+        {
+          "stepType": "CLICK",
+          "componentFinderBy": "xpath",
+          "componentFinderID": "//*[@id=\"doAddBtn\"]/span",
+          "componentValue": "",
+          "delay": 1000
+        },
+        {
+          "stepType": "INPUT",
+          "componentFinderBy": "xpath",
+          "componentFinderID": "//*[@id=\"username\"]",
+          "componentValue": "KittanaiSri47",
+          "delay": 1000
+        },
+        {
+          "stepType": "INPUT",
+          "componentFinderBy": "xpath",
+          "componentFinderID": "//*[@id=\"password\"]",
+          "componentValue": "12121212121212Za@#",
+          "delay": 1000
+        },
+        {
+          "stepType": "SELECT",
+          "componentFinderBy": "xpath",
+          "componentFinderID": "//*[@id=\"role\"]",
+          "componentValue": "Option 2",
+          "delay": 1000
+        },
+        {
+          "stepType": "INPUT",
+          "componentFinderBy": "xpath",
+          "componentFinderID": "//*[@id=\"firstname\"]",
+          "componentValue": "Kittanai",
+          "delay": 1000
+        },
+        {
+          "stepType": "INPUT",
+          "componentFinderBy": "xpath",
+          "componentFinderID": "//*[@id=\"lastname\"]",
+          "componentValue": "Srikham",
+          "delay": 1000
+        },
+        {
+          "stepType": "INPUT",
+          "componentFinderBy": "xpath",
+          "componentFinderID": "//*[@id=\"email\"]",
+          "componentValue": "KittanaiAutomateTest47@up.ac.th",
+          "delay": 1000
+        },
+        {
+          "stepType": "CLICK",
+          "componentFinderBy": "xpath",
+          "componentFinderID": "//*[@id=\"addSubmitBtn\"]/span",
+          "componentValue": "",
+          "delay": 1000
+        }
+      ]
+    }
+  ]
+}

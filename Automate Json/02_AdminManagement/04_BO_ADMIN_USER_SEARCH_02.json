@@ -1,0 +1,59 @@
+{
+  "setSubjectID": "BO",
+  "setSubjectName": "Back Office System",
+  "setSubjectType": "WEBSITE",
+  "setName": "AdminUserSearchTests",
+  "cases": [
+    {
+      "scenarioGroup": "Admin Management",
+      "scenarioName": "02",
+      "scenarioDescription": "Search Admin User ไม่สำเร็จ เนื่องจากไม่มีข้อมูลตามเงื่อนไขที่ต้องการค้นหา",
+      "scenarioPriority": "HIGH",
+      "prerequisites": "ทำการ Login สำเร็จ และ User ที่ใช้ต้องมีสิทธิ์ Permission : Admin User - Search",
+      "steps": [
+        {
+          "stepType": "NAVIGATE",
+          "componentFinderBy": "URL",
+          "componentFinderID": "",
+          "componentValue": "https://dev2.promptnow.com:21114/pn_next_automation_bo/page/verification/login.jsp",
+          "delay": 2000
+        },
+        {
+          "stepType": "CLICK",
+          "componentFinderBy": "xpath",
+          "componentFinderID": "//*[@id='myslidemenu']/ul/li[1]/a",
+          "componentValue": "",
+          "delay": 1000
+        },
+        {
+          "stepType": "CLICK",
+          "componentFinderBy": "xpath",
+          "componentFinderID": "//*[@id='ui-id-1']",
+          "componentValue": "",
+          "delay": 1000
+        },
+        {
+          "stepType": "INPUT",
+          "componentFinderBy": "xpath",
+          "componentFinderID": "//*[@id=\"username\"]",
+          "componentValue": "KittanaiSri46",
+          "delay": 1000
+        },
+        {
+          "stepType": "CLICK",
+          "componentFinderBy": "xpath",
+          "componentFinderID": "//*[@id=\"onSearchBtn\"]/span",
+          "componentValue": "",
+          "delay": 1000
+        },
+        {
+          "stepType": "CHECK",
+          "componentFinderBy": "xpath",
+          "componentFinderID": "//*[@id='error']/div/div",
+          "componentValue": "Expected error message for no search results",
+          "delay": 1000
+        }
+      ]
+    }
+  ]
+}
