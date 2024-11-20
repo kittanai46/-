@@ -1,0 +1,9 @@
+﻿<Window x:Class="NetworkAdaptersApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Network Adapters" Height="400" Width="600">
+    <Grid>
+        <ListBox x:Name="AdaptersListBox" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10"/>
+        <Button Content="Get Network Adapters" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="10" Width="200" Height="30" Click="OnGetAdaptersClick"/>
+    </Grid>
+</Window>

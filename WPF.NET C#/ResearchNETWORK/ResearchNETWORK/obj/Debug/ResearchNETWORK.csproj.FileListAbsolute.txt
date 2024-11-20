@@ -1,0 +1,14 @@
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\WPF.NET C#\ResearchNETWORK\ResearchNETWORK\bin\Debug\ResearchNETWORK.exe.config
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\WPF.NET C#\ResearchNETWORK\ResearchNETWORK\bin\Debug\ResearchNETWORK.exe
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\WPF.NET C#\ResearchNETWORK\ResearchNETWORK\bin\Debug\ResearchNETWORK.pdb
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\WPF.NET C#\ResearchNETWORK\ResearchNETWORK\obj\Debug\ResearchNETWORK.csproj.AssemblyReference.cache
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\WPF.NET C#\ResearchNETWORK\ResearchNETWORK\obj\Debug\MainWindow.baml
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\WPF.NET C#\ResearchNETWORK\ResearchNETWORK\obj\Debug\MainWindow.g.cs
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\WPF.NET C#\ResearchNETWORK\ResearchNETWORK\obj\Debug\App.g.cs
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\WPF.NET C#\ResearchNETWORK\ResearchNETWORK\obj\Debug\ResearchNETWORK_MarkupCompile.cache
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\WPF.NET C#\ResearchNETWORK\ResearchNETWORK\obj\Debug\ResearchNETWORK.g.resources
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\WPF.NET C#\ResearchNETWORK\ResearchNETWORK\obj\Debug\ResearchNETWORK.Properties.Resources.resources
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\WPF.NET C#\ResearchNETWORK\ResearchNETWORK\obj\Debug\ResearchNETWORK.csproj.GenerateResource.cache
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\WPF.NET C#\ResearchNETWORK\ResearchNETWORK\obj\Debug\ResearchNETWORK.csproj.CoreCompileInputs.cache
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\WPF.NET C#\ResearchNETWORK\ResearchNETWORK\obj\Debug\ResearchNETWORK.exe
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\WPF.NET C#\ResearchNETWORK\ResearchNETWORK\obj\Debug\ResearchNETWORK.pdb
