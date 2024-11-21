@@ -1,0 +1,19 @@
+﻿<Window x:Class="NetworkAdaptersApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Network Adapters" Height="450" Width="700">
+    <Grid>
+        <ListView x:Name="AdaptersListView" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}" Width="200"/>
+                    <GridViewColumn Header="Description" DisplayMemberBinding="{Binding Description}" Width="250"/>
+                    <GridViewColumn Header="Status" DisplayMemberBinding="{Binding Status}" Width="100"/>
+                    <GridViewColumn Header="MAC Address" DisplayMemberBinding="{Binding MacAddress}" Width="150"/>
+                    <GridViewColumn Header="IP Address" DisplayMemberBinding="{Binding IpAddress}" Width="150"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button Content="Get Network Adapters" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="10" Width="200" Height="30" Click="OnGetAdaptersClick"/>
+    </Grid>
+</Window>
