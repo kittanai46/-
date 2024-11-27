@@ -1,0 +1,17 @@
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\WPF.NET C#\WMI_Static\WMI_Static\bin\Debug\WMI_Static.exe.config
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\WPF.NET C#\WMI_Static\WMI_Static\bin\Debug\WMI_Static.exe
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\WPF.NET C#\WMI_Static\WMI_Static\bin\Debug\WMI_Static.pdb
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\WPF.NET C#\WMI_Static\WMI_Static\bin\Debug\System.CodeDom.dll
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\WPF.NET C#\WMI_Static\WMI_Static\bin\Debug\System.CodeDom.xml
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\WPF.NET C#\WMI_Static\WMI_Static\obj\Debug\WMI_Static.csproj.AssemblyReference.cache
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\WPF.NET C#\WMI_Static\WMI_Static\obj\Debug\MainWindow.baml
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\WPF.NET C#\WMI_Static\WMI_Static\obj\Debug\MainWindow.g.cs
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\WPF.NET C#\WMI_Static\WMI_Static\obj\Debug\App.g.cs
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\WPF.NET C#\WMI_Static\WMI_Static\obj\Debug\WMI_Static_MarkupCompile.cache
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\WPF.NET C#\WMI_Static\WMI_Static\obj\Debug\WMI_Static.g.resources
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\WPF.NET C#\WMI_Static\WMI_Static\obj\Debug\WMI_Static.Properties.Resources.resources
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\WPF.NET C#\WMI_Static\WMI_Static\obj\Debug\WMI_Static.csproj.GenerateResource.cache
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\WPF.NET C#\WMI_Static\WMI_Static\obj\Debug\WMI_Static.csproj.CoreCompileInputs.cache
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\WPF.NET C#\WMI_Static\WMI_Static\obj\Debug\WMI_Static.csproj.Up2Date
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\WPF.NET C#\WMI_Static\WMI_Static\obj\Debug\WMI_Static.exe
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\WPF.NET C#\WMI_Static\WMI_Static\obj\Debug\WMI_Static.pdb

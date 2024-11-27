@@ -1,0 +1,34 @@
+﻿<Window x:Class="WpfStaticIPApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Static IP Configuration" Height="550" Width="650">
+    <Grid Margin="10">
+        <Label Content="Select Network Adapter:" HorizontalAlignment="Left" VerticalAlignment="Top" />
+        <ComboBox x:Name="NetworkAdapterComboBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="300" Margin="150,0,0,0" SelectionChanged="NetworkAdapterComboBox_SelectionChanged" />
+
+        <Label Content="IP Address:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,50,0,0" />
+        <TextBox x:Name="TxtIPAddress" HorizontalAlignment="Left" VerticalAlignment="Top" Width="300" Margin="150,50,0,0" />
+
+        <Label Content="Subnet Mask:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,100,0,0" />
+        <TextBox x:Name="TxtSubnetMask" HorizontalAlignment="Left" VerticalAlignment="Top" Width="300" Margin="150,100,0,0" />
+
+        <Label Content="Default Gateway:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,150,0,0" />
+        <TextBox x:Name="TxtGateway" HorizontalAlignment="Left" VerticalAlignment="Top" Width="300" Margin="150,150,0,0" />
+
+        <!-- ค่า IP ปัจจุบัน -->
+        <Label Content="Current IP Address:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,200,0,0" />
+        <TextBox x:Name="TxtCurrentIPAddress" HorizontalAlignment="Left" VerticalAlignment="Top" Width="300" Margin="150,200,0,0" IsReadOnly="True" />
+
+        <Label Content="Current Subnet Mask:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,250,0,0" />
+        <TextBox x:Name="TxtCurrentSubnetMask" HorizontalAlignment="Left" VerticalAlignment="Top" Width="300" Margin="150,250,0,0" IsReadOnly="True" />
+
+        <Label Content="Current Default Gateway:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,300,0,0" />
+        <TextBox x:Name="TxtCurrentGateway" HorizontalAlignment="Left" VerticalAlignment="Top" Width="300" Margin="150,300,0,0" IsReadOnly="True" />
+
+        <Button Content="Save Original Settings" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Margin="0,350,0,0" Click="SaveOriginalSettings_Click" />
+        <Button Content="Set Current IP" HorizontalAlignment="Right" VerticalAlignment="Top" Width="150" Margin="0,350,0,0" Click="SetCurrentIP_Click" />
+        <Button Content="Restore Settings + DHCP" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Margin="0,400,0,0" Click="RestoreSettingsAndEnableDHCP_Click" />
+
+        <Label x:Name="LblStatus" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="14" Foreground="Green" />
+    </Grid>
+</Window>
