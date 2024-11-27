@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\WMI_Static\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F76A7B70-969A-49A0-8774-81E4195106C0}|WMI_Static\\WMI_Static.csproj|C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\WMI_Static\\wmi_static\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{F76A7B70-969A-49A0-8774-81E4195106C0}|WMI_Static\\WMI_Static.csproj|c:\\users\\bawkt\\onedrive\\desktop\\promptnow\\wpf.net c#\\wmi_static\\wmi_static\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F76A7B70-969A-49A0-8774-81E4195106C0}|WMI_Static\\WMI_Static.csproj|solutionrelative:wmi_static\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F76A7B70-969A-49A0-8774-81E4195106C0}|WMI_Static\\WMI_Static.csproj|c:\\users\\bawkt\\onedrive\\desktop\\promptnow\\wpf.net c#\\wmi_static\\wmi_static\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F76A7B70-969A-49A0-8774-81E4195106C0}|WMI_Static\\WMI_Static.csproj|C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\WMI_Static\\wmi_static\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F76A7B70-969A-49A0-8774-81E4195106C0}|WMI_Static\\WMI_Static.csproj|solutionrelative:wmi_static\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -21,7 +21,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 313,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -37,21 +37,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\0c127a365c8211b835a6e272639aca6b30d12698fabcaeb2687b791ca6edcba1\\RuntimeType.cs",
               "ViewState": "AgIAAB0QAAAAAAAAAAAnwCUQAAACAAAAAQAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T09:59:38.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\WMI_Static\\WMI_Static\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WMI_Static\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\WMI_Static\\WMI_Static\\MainWindow.xaml.cs",
-              "RelativeToolTip": "WMI_Static\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAMcAAAAAAAAAAAAUwOMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T09:56:33.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T09:59:38.995Z"
             },
             {
               "$type": "Document",
@@ -64,6 +50,18 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-26T09:56:33.833Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\WMI_Static\\WMI_Static\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WMI_Static\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\WMI_Static\\WMI_Static\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WMI_Static\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAMcAAAAAAAAAAAAUwOMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T09:56:33.628Z"
             }
           ]
         }
