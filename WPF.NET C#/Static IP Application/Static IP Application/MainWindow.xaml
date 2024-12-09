@@ -1,0 +1,65 @@
+﻿<Window x:Class="WpfStaticIPApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Static IP and Network Settings" Height="700" Width="800">
+    <Grid Margin="0,0,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title -->
+        <Label Content="Network Adapter Configuration" HorizontalAlignment="Center" VerticalAlignment="Top"
+               Margin="0,20,0,0" FontWeight="Bold" FontSize="22"/>
+
+        <!-- ComboBox for selecting network adapter -->
+        <Label Content="Select Network Adapter:" HorizontalAlignment="Left" VerticalAlignment="Top"
+               Margin="100,80,0,0" FontWeight="Bold"/>
+        <ComboBox x:Name="NetworkAdapterComboBox" HorizontalAlignment="Left" VerticalAlignment="Top" 
+                  Width="300" Margin="250,80,0,0" SelectionChanged="NetworkAdapterComboBox_SelectionChanged"/>
+
+        <!-- IP Address -->
+        <Label Content="IP Address:" HorizontalAlignment="Left" VerticalAlignment="Top"
+               Margin="100,140,0,0" FontWeight="Bold"/>
+        <TextBox x:Name="TxtIPAddress" HorizontalAlignment="Left" VerticalAlignment="Top" 
+                 Width="300" Margin="250,140,0,0"/>
+
+        <!-- Subnet Mask -->
+        <Label Content="Subnet Mask:" HorizontalAlignment="Left" VerticalAlignment="Top"
+               Margin="100,200,0,0" FontWeight="Bold"/>
+        <TextBox x:Name="TxtSubnetMask" HorizontalAlignment="Left" VerticalAlignment="Top" 
+                 Width="300" Margin="250,200,0,0"/>
+
+        <!-- Gateway -->
+        <Label Content="Gateway:" HorizontalAlignment="Left" VerticalAlignment="Top"
+               Margin="100,260,0,0" FontWeight="Bold"/>
+        <TextBox x:Name="TxtGateway" HorizontalAlignment="Left" VerticalAlignment="Top" 
+                 Width="300" Margin="250,260,0,0"/>
+
+        <!-- Preferred DNS -->
+        <Label Content="Preferred DNS Server:" HorizontalAlignment="Left" VerticalAlignment="Top"
+               Margin="100,320,0,0" FontWeight="Bold"/>
+        <TextBox x:Name="PerferredDNSServer" HorizontalAlignment="Left" VerticalAlignment="Top" 
+                 Width="300" Margin="250,320,0,0"/>
+
+        <!-- Alternate DNS -->
+        <Label Content="Alternate DNS Server:" HorizontalAlignment="Left" VerticalAlignment="Top"
+               Margin="100,380,0,0" FontWeight="Bold"/>
+        <TextBox x:Name="AlternateDNSserver" HorizontalAlignment="Left" VerticalAlignment="Top" 
+                 Width="300" Margin="250,380,0,0"/>
+
+        <!-- Buttons -->
+        <Button Content="Set Static IP" HorizontalAlignment="Left" VerticalAlignment="Top"
+                Width="140" Height="35" Margin="100,450,0,0" Click="SetStaticIP_Click"/>
+        <Button Content="Enable DHCP" HorizontalAlignment="Left" VerticalAlignment="Top"
+                Width="140" Height="35" Margin="260,450,0,0" Click="EnableDHCP_Click"/>
+        <Button Content="Refresh" HorizontalAlignment="Left" VerticalAlignment="Top"
+                Width="140" Height="35" Margin="420,450,0,0" Click="Refresh_Click"/>
+        <Button Content="Clear All" HorizontalAlignment="Left" VerticalAlignment="Top"
+                Width="140" Height="35" Margin="580,450,0,0" Click="ClearAll_Click"/>
+
+        <!-- Status Label -->
+        <Label x:Name="LblStatus" HorizontalAlignment="Center" VerticalAlignment="Top"
+               Margin="0,530,0,0" FontWeight="Bold" FontSize="16" Foreground="Green"/>
+    </Grid>
+</Window>

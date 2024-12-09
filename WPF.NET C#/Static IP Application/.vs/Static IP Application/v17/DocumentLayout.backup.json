@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\Static IP Application\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF988D6-4C56-459C-ABCC-5A97A689FDF2}|Static IP Application\\Static IP Application.csproj|c:\\users\\bawkt\\onedrive\\desktop\\promptnow\\wpf.net c#\\static ip application\\static ip application\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF988D6-4C56-459C-ABCC-5A97A689FDF2}|Static IP Application\\Static IP Application.csproj|solutionrelative:static ip application\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF988D6-4C56-459C-ABCC-5A97A689FDF2}|Static IP Application\\Static IP Application.csproj|c:\\users\\bawkt\\onedrive\\desktop\\promptnow\\wpf.net c#\\static ip application\\static ip application\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DAF988D6-4C56-459C-ABCC-5A97A689FDF2}|Static IP Application\\Static IP Application.csproj|solutionrelative:static ip application\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF988D6-4C56-459C-ABCC-5A97A689FDF2}|Static IP Application\\Static IP Application.csproj|c:\\users\\bawkt\\onedrive\\desktop\\promptnow\\wpf.net c#\\static ip application\\static ip application\\networkadaptermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF988D6-4C56-459C-ABCC-5A97A689FDF2}|Static IP Application\\Static IP Application.csproj|solutionrelative:static ip application\\networkadaptermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 313,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NetworkAdapterManager.cs",
+              "DocumentMoniker": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\Static IP Application\\Static IP Application\\NetworkAdapterManager.cs",
+              "RelativeDocumentMoniker": "Static IP Application\\NetworkAdapterManager.cs",
+              "ToolTip": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\Static IP Application\\Static IP Application\\NetworkAdapterManager.cs",
+              "RelativeToolTip": "Static IP Application\\NetworkAdapterManager.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T03:27:01.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\Static IP Application\\Static IP Application\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Static IP Application\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\Static IP Application\\Static IP Application\\MainWindow.xaml",
+              "RelativeToolTip": "Static IP Application\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-09T02:55:25.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\Static IP Application\\Static IP Application\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Static IP Application\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\Static IP Application\\Static IP Application\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Static IP Application\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAkwFEAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T02:55:25.068Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
