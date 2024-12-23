@@ -1,0 +1,200 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\PromptNow Static IP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF988D6-4C56-459C-ABCC-5A97A689FDF2}|Static IP Application\\Static IP Application.csproj|C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\PromptNow Static IP\\static ip application\\dialogs\\saveconfirmation.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF988D6-4C56-459C-ABCC-5A97A689FDF2}|Static IP Application\\Static IP Application.csproj|solutionrelative:static ip application\\dialogs\\saveconfirmation.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF988D6-4C56-459C-ABCC-5A97A689FDF2}|Static IP Application\\Static IP Application.csproj|C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\PromptNow Static IP\\static ip application\\dialogs\\dhcpconfirmation.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF988D6-4C56-459C-ABCC-5A97A689FDF2}|Static IP Application\\Static IP Application.csproj|solutionrelative:static ip application\\dialogs\\dhcpconfirmation.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF988D6-4C56-459C-ABCC-5A97A689FDF2}|Static IP Application\\Static IP Application.csproj|c:\\users\\bawkt\\onedrive\\desktop\\promptnow\\wpf.net c#\\promptnow static ip\\static ip application\\adapterdetailwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF988D6-4C56-459C-ABCC-5A97A689FDF2}|Static IP Application\\Static IP Application.csproj|solutionrelative:static ip application\\adapterdetailwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF988D6-4C56-459C-ABCC-5A97A689FDF2}|Static IP Application\\Static IP Application.csproj|C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\PromptNow Static IP\\static ip application\\dialogs\\dhcpconfirmation.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DAF988D6-4C56-459C-ABCC-5A97A689FDF2}|Static IP Application\\Static IP Application.csproj|solutionrelative:static ip application\\dialogs\\dhcpconfirmation.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF988D6-4C56-459C-ABCC-5A97A689FDF2}|Static IP Application\\Static IP Application.csproj|C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\PromptNow Static IP\\static ip application\\dialogs\\saveconfirmation.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DAF988D6-4C56-459C-ABCC-5A97A689FDF2}|Static IP Application\\Static IP Application.csproj|solutionrelative:static ip application\\dialogs\\saveconfirmation.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF988D6-4C56-459C-ABCC-5A97A689FDF2}|Static IP Application\\Static IP Application.csproj|C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\PromptNow Static IP\\static ip application\\adapterdetailwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DAF988D6-4C56-459C-ABCC-5A97A689FDF2}|Static IP Application\\Static IP Application.csproj|solutionrelative:static ip application\\adapterdetailwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF988D6-4C56-459C-ABCC-5A97A689FDF2}|Static IP Application\\Static IP Application.csproj|C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\PromptNow Static IP\\static ip application\\networkadaptermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF988D6-4C56-459C-ABCC-5A97A689FDF2}|Static IP Application\\Static IP Application.csproj|solutionrelative:static ip application\\networkadaptermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF988D6-4C56-459C-ABCC-5A97A689FDF2}|Static IP Application\\Static IP Application.csproj|C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\PromptNow Static IP\\static ip application\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DAF988D6-4C56-459C-ABCC-5A97A689FDF2}|Static IP Application\\Static IP Application.csproj|solutionrelative:static ip application\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF988D6-4C56-459C-ABCC-5A97A689FDF2}|Static IP Application\\Static IP Application.csproj|C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\PromptNow Static IP\\static ip application\\services\\datetimeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF988D6-4C56-459C-ABCC-5A97A689FDF2}|Static IP Application\\Static IP Application.csproj|solutionrelative:static ip application\\services\\datetimeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF988D6-4C56-459C-ABCC-5A97A689FDF2}|Static IP Application\\Static IP Application.csproj|C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\PromptNow Static IP\\static ip application\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF988D6-4C56-459C-ABCC-5A97A689FDF2}|Static IP Application\\Static IP Application.csproj|solutionrelative:static ip application\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF988D6-4C56-459C-ABCC-5A97A689FDF2}|Static IP Application\\Static IP Application.csproj|C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\PromptNow Static IP\\static ip application\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DAF988D6-4C56-459C-ABCC-5A97A689FDF2}|Static IP Application\\Static IP Application.csproj|solutionrelative:static ip application\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 313,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\PromptNow Static IP\\Static IP Application\\App.xaml",
+              "RelativeDocumentMoniker": "Static IP Application\\App.xaml",
+              "ToolTip": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\PromptNow Static IP\\Static IP Application\\App.xaml",
+              "RelativeToolTip": "Static IP Application\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-23T10:16:15Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DHCPConfirmation.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\PromptNow Static IP\\Static IP Application\\Dialogs\\DHCPConfirmation.xaml.cs",
+              "RelativeDocumentMoniker": "Static IP Application\\Dialogs\\DHCPConfirmation.xaml.cs",
+              "ToolTip": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\PromptNow Static IP\\Static IP Application\\Dialogs\\DHCPConfirmation.xaml.cs*",
+              "RelativeToolTip": "Static IP Application\\Dialogs\\DHCPConfirmation.xaml.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T06:47:32.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DHCPConfirmation.xaml",
+              "DocumentMoniker": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\PromptNow Static IP\\Static IP Application\\Dialogs\\DHCPConfirmation.xaml",
+              "RelativeDocumentMoniker": "Static IP Application\\Dialogs\\DHCPConfirmation.xaml",
+              "ToolTip": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\PromptNow Static IP\\Static IP Application\\Dialogs\\DHCPConfirmation.xaml*",
+              "RelativeToolTip": "Static IP Application\\Dialogs\\DHCPConfirmation.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-18T06:47:23.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SaveConfirmation.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\PromptNow Static IP\\Static IP Application\\Dialogs\\SaveConfirmation.xaml.cs",
+              "RelativeDocumentMoniker": "Static IP Application\\Dialogs\\SaveConfirmation.xaml.cs",
+              "ToolTip": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\PromptNow Static IP\\Static IP Application\\Dialogs\\SaveConfirmation.xaml.cs*",
+              "RelativeToolTip": "Static IP Application\\Dialogs\\SaveConfirmation.xaml.cs*",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T03:08:17.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SaveConfirmation.xaml",
+              "DocumentMoniker": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\PromptNow Static IP\\Static IP Application\\Dialogs\\SaveConfirmation.xaml",
+              "RelativeDocumentMoniker": "Static IP Application\\Dialogs\\SaveConfirmation.xaml",
+              "ToolTip": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\PromptNow Static IP\\Static IP Application\\Dialogs\\SaveConfirmation.xaml",
+              "RelativeToolTip": "Static IP Application\\Dialogs\\SaveConfirmation.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-18T03:07:39.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdapterDetailWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\PromptNow Static IP\\Static IP Application\\AdapterDetailWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Static IP Application\\AdapterDetailWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\PromptNow Static IP\\Static IP Application\\AdapterDetailWindow.xaml.cs",
+              "RelativeToolTip": "Static IP Application\\AdapterDetailWindow.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:01:36.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdapterDetailWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\PromptNow Static IP\\Static IP Application\\AdapterDetailWindow.xaml",
+              "RelativeDocumentMoniker": "Static IP Application\\AdapterDetailWindow.xaml",
+              "ToolTip": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\PromptNow Static IP\\Static IP Application\\AdapterDetailWindow.xaml",
+              "RelativeToolTip": "Static IP Application\\AdapterDetailWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-16T04:00:37.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\PromptNow Static IP\\Static IP Application\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Static IP Application\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\PromptNow Static IP\\Static IP Application\\MainWindow.xaml",
+              "RelativeToolTip": "Static IP Application\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-12T09:10:42.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NetworkAdapterManager.cs",
+              "DocumentMoniker": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\PromptNow Static IP\\Static IP Application\\NetworkAdapterManager.cs",
+              "RelativeDocumentMoniker": "Static IP Application\\NetworkAdapterManager.cs",
+              "ToolTip": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\PromptNow Static IP\\Static IP Application\\NetworkAdapterManager.cs",
+              "RelativeToolTip": "Static IP Application\\NetworkAdapterManager.cs",
+              "ViewState": "AgIAAP4AAAAAAAAAAAAswGYBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T03:27:01.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\PromptNow Static IP\\Static IP Application\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Static IP Application\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\PromptNow Static IP\\Static IP Application\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Static IP Application\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAowFQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T02:55:25.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DateTimeService.cs",
+              "DocumentMoniker": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\PromptNow Static IP\\Static IP Application\\Services\\DateTimeService.cs",
+              "RelativeDocumentMoniker": "Static IP Application\\Services\\DateTimeService.cs",
+              "ToolTip": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Promptnow\\WPF.NET C#\\PromptNow Static IP\\Static IP Application\\Services\\DateTimeService.cs",
+              "RelativeToolTip": "Static IP Application\\Services\\DateTimeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T03:57:39.469Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
