@@ -1,0 +1,64 @@
+﻿<Window x:Class="WpfStaticIPApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Windows Logs Viewer" Height="720" Width="540">
+    <Viewbox>
+        <Grid Height="1440" Width="1080">
+            <!-- Background -->
+            <Grid.Background>
+                <ImageBrush ImageSource="pack://application:,,,/Assets/WallpaperLog.png" Stretch="UniformToFill" />
+            </Grid.Background>
+
+            <!-- Date and Time -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="40,75,0,0">
+                <TextBlock x:Name="DateText" FontSize="20" FontWeight="Bold" Foreground="#CACACA" FontFamily="Roboto" />
+                <TextBlock Text=" " FontSize="20" Width="45" />
+                <TextBlock x:Name="TimeText" FontSize="20" FontWeight="Medium" Foreground="#CACACA" FontFamily="Noto Sans" Margin="0,-5,0,0"/>
+            </StackPanel>
+
+            <!-- Background_Log -->
+            <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,80,0,0">
+                <Image Source="pack://application:,,,/Assets/Background_Log.png"
+                       Width="960" Height="820" />
+
+                <!-- Button Log -->
+                <Button Width="410" Height="175" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,160,0,0"
+                        Click="ApplicationLog_Click" BorderThickness="0" Background="Transparent">
+                    <Image Source="pack://application:,,,/Assets/Application_B.png" Stretch="Uniform" />
+                </Button>
+
+                <Button Width="410" Height="175" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,160,50,0"
+                        Click="SystemLog_Click" BorderThickness="0" Background="Transparent">
+                    <Image Source="pack://application:,,,/Assets/System_B.png" Stretch="Uniform" />
+                </Button>
+
+                <Button Width="410" Height="175" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,360,50,0"
+                        Click="SecurityLog_Click" BorderThickness="0" Background="Transparent">
+                    <Image Source="pack://application:,,,/Assets/Security_B.png" Stretch="Uniform" />
+                </Button>
+
+                <Button Width="410" Height="175" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,360,50,0"
+                        Click="SetupLog_Click" BorderThickness="0" Background="Transparent">
+                    <Image Source="pack://application:,,,/Assets/Setup_B.png" Stretch="Uniform" />
+                </Button>
+
+                <Button Width="410" Height="175" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,570,50,0"
+                        Click="ForwardedEventsLog_Click" BorderThickness="0" Background="Transparent">
+                    <Image Source="pack://application:,,,/Assets/Forwarded Events_B.png" Stretch="Uniform" />
+                </Button>
+
+                <Button Width="410" Height="175" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,570,50,0"
+                         BorderThickness="0" Background="Transparent">
+                    <Image Source="pack://application:,,,/Assets/Void_B.png" Stretch="Uniform" />
+                </Button>
+                
+            </Grid>
+
+            <!-- Back Button -->
+            <Button Width="640" Height="114" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,50"
+                    Click="BackButton_Click" BorderThickness="0" Background="Transparent">
+                <Image Source="pack://application:,,,/Assets/back.png" Stretch="Uniform" />
+            </Button>
+        </Grid>
+    </Viewbox>
+</Window>

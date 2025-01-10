@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Automation TEAM\\PromptNowWindow Export Log\\Window_Event_Log\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D0640AB6-717E-4CA7-B74C-E8C8A0B8199C}|Window_Event_Log\\Window_Event_Log.csproj|c:\\users\\bawkt\\onedrive\\desktop\\automation team\\promptnowwindow export log\\window_event_log\\window_event_log\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0640AB6-717E-4CA7-B74C-E8C8A0B8199C}|Window_Event_Log\\Window_Event_Log.csproj|solutionrelative:window_event_log\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0640AB6-717E-4CA7-B74C-E8C8A0B8199C}|Window_Event_Log\\Window_Event_Log.csproj|C:\\Users\\bawkt\\OneDrive\\Desktop\\Automation TEAM\\PromptNowWindow Export Log\\Window_Event_Log\\Window_Event_Log\\Services\\LevelManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0640AB6-717E-4CA7-B74C-E8C8A0B8199C}|Window_Event_Log\\Window_Event_Log.csproj|solutionrelative:Window_Event_Log\\Services\\LevelManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0640AB6-717E-4CA7-B74C-E8C8A0B8199C}|Window_Event_Log\\Window_Event_Log.csproj|C:\\Users\\bawkt\\OneDrive\\Desktop\\Automation TEAM\\PromptNowWindow Export Log\\Window_Event_Log\\Window_Event_Log\\LogLevelWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0640AB6-717E-4CA7-B74C-E8C8A0B8199C}|Window_Event_Log\\Window_Event_Log.csproj|solutionrelative:Window_Event_Log\\LogLevelWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0640AB6-717E-4CA7-B74C-E8C8A0B8199C}|Window_Event_Log\\Window_Event_Log.csproj|C:\\Users\\bawkt\\OneDrive\\Desktop\\Automation TEAM\\PromptNowWindow Export Log\\Window_Event_Log\\Window_Event_Log\\LogLevelWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D0640AB6-717E-4CA7-B74C-E8C8A0B8199C}|Window_Event_Log\\Window_Event_Log.csproj|solutionrelative:Window_Event_Log\\LogLevelWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0640AB6-717E-4CA7-B74C-E8C8A0B8199C}|Window_Event_Log\\Window_Event_Log.csproj|C:\\Users\\bawkt\\OneDrive\\Desktop\\Automation TEAM\\PromptNowWindow Export Log\\Window_Event_Log\\Window_Event_Log\\Services\\DateTimeService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0640AB6-717E-4CA7-B74C-E8C8A0B8199C}|Window_Event_Log\\Window_Event_Log.csproj|solutionrelative:Window_Event_Log\\Services\\DateTimeService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0640AB6-717E-4CA7-B74C-E8C8A0B8199C}|Window_Event_Log\\Window_Event_Log.csproj|C:\\Users\\bawkt\\OneDrive\\Desktop\\Automation TEAM\\PromptNowWindow Export Log\\Window_Event_Log\\Window_Event_Log\\Services\\LogManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0640AB6-717E-4CA7-B74C-E8C8A0B8199C}|Window_Event_Log\\Window_Event_Log.csproj|solutionrelative:Window_Event_Log\\Services\\LogManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0640AB6-717E-4CA7-B74C-E8C8A0B8199C}|Window_Event_Log\\Window_Event_Log.csproj|C:\\Users\\bawkt\\OneDrive\\Desktop\\Automation TEAM\\PromptNowWindow Export Log\\Window_Event_Log\\Window_Event_Log\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D0640AB6-717E-4CA7-B74C-E8C8A0B8199C}|Window_Event_Log\\Window_Event_Log.csproj|solutionrelative:Window_Event_Log\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 313,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LevelManager.cs",
+              "DocumentMoniker": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Automation TEAM\\PromptNowWindow Export Log\\Window_Event_Log\\Window_Event_Log\\Services\\LevelManager.cs",
+              "RelativeDocumentMoniker": "Window_Event_Log\\Services\\LevelManager.cs",
+              "ToolTip": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Automation TEAM\\PromptNowWindow Export Log\\Window_Event_Log\\Window_Event_Log\\Services\\LevelManager.cs",
+              "RelativeToolTip": "Window_Event_Log\\Services\\LevelManager.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAmwKMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T03:27:03.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LogLevelWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Automation TEAM\\PromptNowWindow Export Log\\Window_Event_Log\\Window_Event_Log\\LogLevelWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Window_Event_Log\\LogLevelWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Automation TEAM\\PromptNowWindow Export Log\\Window_Event_Log\\Window_Event_Log\\LogLevelWindow.xaml.cs",
+              "RelativeToolTip": "Window_Event_Log\\LogLevelWindow.xaml.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAswHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T03:11:09.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LogLevelWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Automation TEAM\\PromptNowWindow Export Log\\Window_Event_Log\\Window_Event_Log\\LogLevelWindow.xaml",
+              "RelativeDocumentMoniker": "Window_Event_Log\\LogLevelWindow.xaml",
+              "ToolTip": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Automation TEAM\\PromptNowWindow Export Log\\Window_Event_Log\\Window_Event_Log\\LogLevelWindow.xaml",
+              "RelativeToolTip": "Window_Event_Log\\LogLevelWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-08T03:11:02.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DateTimeService.cs",
+              "DocumentMoniker": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Automation TEAM\\PromptNowWindow Export Log\\Window_Event_Log\\Window_Event_Log\\Services\\DateTimeService.cs",
+              "RelativeDocumentMoniker": "Window_Event_Log\\Services\\DateTimeService.cs",
+              "ToolTip": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Automation TEAM\\PromptNowWindow Export Log\\Window_Event_Log\\Window_Event_Log\\Services\\DateTimeService.cs",
+              "RelativeToolTip": "Window_Event_Log\\Services\\DateTimeService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwB0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T10:02:13.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LogManager.cs",
+              "DocumentMoniker": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Automation TEAM\\PromptNowWindow Export Log\\Window_Event_Log\\Window_Event_Log\\Services\\LogManager.cs",
+              "RelativeDocumentMoniker": "Window_Event_Log\\Services\\LogManager.cs",
+              "ToolTip": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Automation TEAM\\PromptNowWindow Export Log\\Window_Event_Log\\Window_Event_Log\\Services\\LogManager.cs",
+              "RelativeToolTip": "Window_Event_Log\\Services\\LogManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T10:01:32.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Automation TEAM\\PromptNowWindow Export Log\\Window_Event_Log\\Window_Event_Log\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Window_Event_Log\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Automation TEAM\\PromptNowWindow Export Log\\Window_Event_Log\\Window_Event_Log\\MainWindow.xaml",
+              "RelativeToolTip": "Window_Event_Log\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-07T09:59:51.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Automation TEAM\\PromptNowWindow Export Log\\Window_Event_Log\\Window_Event_Log\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Window_Event_Log\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\bawkt\\OneDrive\\Desktop\\Automation TEAM\\PromptNowWindow Export Log\\Window_Event_Log\\Window_Event_Log\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Window_Event_Log\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T09:59:50.721Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

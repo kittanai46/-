@@ -1,0 +1,32 @@
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\Window_Event_Log\Window_Event_Log\obj\Debug\Window_Event_Log.csproj.AssemblyReference.cache
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\Window_Event_Log\Window_Event_Log\obj\Debug\LogLevelWindow.baml
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\Window_Event_Log\Window_Event_Log\obj\Debug\MainWindow.baml
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\Window_Event_Log\Window_Event_Log\obj\Debug\LogLevelWindow.g.cs
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\Window_Event_Log\Window_Event_Log\obj\Debug\MainWindow.g.cs
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\Window_Event_Log\Window_Event_Log\obj\Debug\App.g.cs
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\Window_Event_Log\Window_Event_Log\obj\Debug\Window_Event_Log_MarkupCompile.cache
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\Window_Event_Log\Window_Event_Log\obj\Debug\Window_Event_Log.g.resources
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\Window_Event_Log\Window_Event_Log\obj\Debug\Window_Event_Log.Properties.Resources.resources
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\Window_Event_Log\Window_Event_Log\obj\Debug\Window_Event_Log.csproj.GenerateResource.cache
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\Window_Event_Log\Window_Event_Log\obj\Debug\Window_Event_Log.csproj.CoreCompileInputs.cache
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\Window_Event_Log\Window_Event_Log\bin\Debug\Window_Event_Log.exe.config
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\Window_Event_Log\Window_Event_Log\bin\Debug\Window_Event_Log.exe
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\Window_Event_Log\Window_Event_Log\bin\Debug\Window_Event_Log.pdb
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\Window_Event_Log\Window_Event_Log\obj\Debug\Window_Event_Log.exe
+C:\Users\bawkt\OneDrive\Desktop\Promptnow\Window_Event_Log\Window_Event_Log\obj\Debug\Window_Event_Log.pdb
+C:\Users\bawkt\OneDrive\Desktop\Automation TEAM\PromptNowWindow Export Log\Window_Event_Log\Window_Event_Log\bin\Debug\Window_Event_Log.exe.config
+C:\Users\bawkt\OneDrive\Desktop\Automation TEAM\PromptNowWindow Export Log\Window_Event_Log\Window_Event_Log\bin\Debug\Window_Event_Log.exe
+C:\Users\bawkt\OneDrive\Desktop\Automation TEAM\PromptNowWindow Export Log\Window_Event_Log\Window_Event_Log\bin\Debug\Window_Event_Log.pdb
+C:\Users\bawkt\OneDrive\Desktop\Automation TEAM\PromptNowWindow Export Log\Window_Event_Log\Window_Event_Log\obj\Debug\Window_Event_Log.csproj.AssemblyReference.cache
+C:\Users\bawkt\OneDrive\Desktop\Automation TEAM\PromptNowWindow Export Log\Window_Event_Log\Window_Event_Log\obj\Debug\LogLevelWindow.baml
+C:\Users\bawkt\OneDrive\Desktop\Automation TEAM\PromptNowWindow Export Log\Window_Event_Log\Window_Event_Log\obj\Debug\MainWindow.baml
+C:\Users\bawkt\OneDrive\Desktop\Automation TEAM\PromptNowWindow Export Log\Window_Event_Log\Window_Event_Log\obj\Debug\LogLevelWindow.g.cs
+C:\Users\bawkt\OneDrive\Desktop\Automation TEAM\PromptNowWindow Export Log\Window_Event_Log\Window_Event_Log\obj\Debug\MainWindow.g.cs
+C:\Users\bawkt\OneDrive\Desktop\Automation TEAM\PromptNowWindow Export Log\Window_Event_Log\Window_Event_Log\obj\Debug\App.g.cs
+C:\Users\bawkt\OneDrive\Desktop\Automation TEAM\PromptNowWindow Export Log\Window_Event_Log\Window_Event_Log\obj\Debug\Window_Event_Log_MarkupCompile.cache
+C:\Users\bawkt\OneDrive\Desktop\Automation TEAM\PromptNowWindow Export Log\Window_Event_Log\Window_Event_Log\obj\Debug\Window_Event_Log.g.resources
+C:\Users\bawkt\OneDrive\Desktop\Automation TEAM\PromptNowWindow Export Log\Window_Event_Log\Window_Event_Log\obj\Debug\Window_Event_Log.Properties.Resources.resources
+C:\Users\bawkt\OneDrive\Desktop\Automation TEAM\PromptNowWindow Export Log\Window_Event_Log\Window_Event_Log\obj\Debug\Window_Event_Log.csproj.GenerateResource.cache
+C:\Users\bawkt\OneDrive\Desktop\Automation TEAM\PromptNowWindow Export Log\Window_Event_Log\Window_Event_Log\obj\Debug\Window_Event_Log.csproj.CoreCompileInputs.cache
+C:\Users\bawkt\OneDrive\Desktop\Automation TEAM\PromptNowWindow Export Log\Window_Event_Log\Window_Event_Log\obj\Debug\Window_Event_Log.exe
+C:\Users\bawkt\OneDrive\Desktop\Automation TEAM\PromptNowWindow Export Log\Window_Event_Log\Window_Event_Log\obj\Debug\Window_Event_Log.pdb
